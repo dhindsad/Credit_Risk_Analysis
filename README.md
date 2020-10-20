@@ -8,23 +8,22 @@ The purpose of this assignment was to test different techniques to solve credit 
 Results:
 
 
-Naive Random Oversampling
+Naive Random Oversampling:
 The precision score are 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about 0.54 for low-risk and 0.60 for high risk. The balanced accuracy score is 0.57, which is pretty low.
 
-SMOTE Oversampling
+SMOTE Oversampling:
 The precision score are 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about 0.65 for low-risk and 0.57 for high risk. The balanced accuracy score is 0.614, which is pretty low.
 
-
-Undersampling
+Undersampling:
 The precision score are 0.99 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the same (0.46 for low-risk and 0.54 for high-risk) for both categories. The balanced accuracy score is 0.61, which is low.
 
-Combination Sampling
+Combination Sampling:
 The precision score are 1.00 for predicting low-risk and 0.01 for predicting high-risk. The recall score is about the same (0.61 for low-risk and 0.64 for high-risk) for both categories. The balanced accuracy score is 0.499, which is pretty low.
 
-Balanced Random Forest Classifier
+Balanced Random Forest Classifier:
 The precision score are 0.99 for predicting low-risk and 0.00 for predicting high-risk. The recall score is 1.00 for low-risk and 0.00 for high-risk. The balanced accuracy score is 0.499, which is very high.
 
-Easy Ensemble AdaBoost Classifier
+Easy Ensemble AdaBoost Classifier:
 The precision score are 1.00 for predicting low-risk and 1.00 for predicting high-risk. The recall score is 1.00 for low-risk and 1.00 for high-risk. The balanced accuracy score is 1.0, which is very high.
 
 
